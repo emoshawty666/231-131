@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-#include "Header.h"
+#include "staticfunction.h"
 using namespace std;
 
 

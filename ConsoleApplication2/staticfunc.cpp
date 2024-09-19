@@ -1,4 +1,4 @@
-#include "Header.h"
+#include "staticfunction.h"
 #include <iostream>
 
 using namespace std;
@@ -11,6 +11,4 @@ namespace staticfunc
 		cout << x + n << endl;
 		x = n;
 	}
-
-
 }
