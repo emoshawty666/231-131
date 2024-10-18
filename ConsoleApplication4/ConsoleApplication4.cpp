@@ -12,7 +12,13 @@ public:
 
 	Weapon() : name("Vandal"), damage(150), weight(15) {}
 
+
+	~Weapon(){
+		cout << "Object" << " " << name << " " << "deleted\n";
+	}
+
 };
+
 
 
 int main()
