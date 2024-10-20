@@ -222,6 +222,9 @@ int main()
 	cout << "Value of 'ball': " << mySettings.Get("ball") << endl;
 	mySettings.Print();*/
 
+	//14. Сделайте поле Map статическим, сделайте статическими все его функции.
+	//15. Проверьте его работу теперь.
+
 	Settings::Add("ball", "Football");
 	Settings::Add("KaiAngel", "9mice");
 	cout << "Value of 'ball': " << Settings::Get("ball") << endl;
