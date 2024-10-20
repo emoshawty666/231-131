@@ -127,53 +127,53 @@ int main()
 	//8. Если пользователь вводит exit, то необходимо завершить программу.
 
 
-	//string input;
-	//string file_name = "user_file.txt";
+	string input;
+	string file_name = "user_file.txt";
 
-	//while (true)
-	//{
-	//	cout << "Enter something";
-	//	getline(cin, input);
-	//	if (input == "read")
-	//	{
-	//		ifstream file(file_name);
-	//		if (file.is_open())
-	//		{
-	//			string line;
-	//			while (getline(file, line))
-	//			{
-	//				cout << line << endl;
-	//			}
-	//			file.close();
-	//		}
-	//		else
-	//		{
-	//			cerr << "Something gone wrong" << endl;
-	//		}
-	//	}
-	//	else if (input == "erase")
-	//	{
-	//		ofstream file(file_name, ofstream::trunc);
-	//		file.close();
-	//		cout << "File clearned" << endl;
-	//	}
-	//	else if (input == "exit")
-	//	{
-	//		break;
-	//	}
-	//	else
-	//	{
-	//		ofstream file(file_name, ios::app);
-	//		if (file.is_open()) {
-	//			file << input << endl; // Записываем строку в файл
-	//			file.close();
-	//		}
-	//		else
-	//		{
-	//			cout << "Не удалось открыть файл для записи.\n";
-	//		}
-	//	}
-	//}
+	while (true)
+	{
+		cout << "Enter something";
+		getline(cin, input);
+		if (input == "read")
+		{
+			ifstream file(file_name);
+			if (file.is_open())
+			{
+				string line;
+				while (getline(file, line))
+				{
+					cout << line << endl;
+				}
+				file.close();
+			}
+			else
+			{
+				cerr << "Something gone wrong" << endl;
+			}
+		}
+		else if (input == "erase")
+		{
+			ofstream file(file_name, ofstream::trunc);
+			file.close();
+			cout << "File clearned" << endl;
+		}
+		else if (input == "exit")
+		{
+			break;
+		}
+		else
+		{
+			ofstream file(file_name, ios::app);
+			if (file.is_open()) {
+				file << input << endl; // Записываем строку в файл
+				file.close();
+			}
+			else
+			{
+				cout << "Не удалось открыть файл для записи.\n";
+			}
+		}
+	}
 
 
 	//1. Создайте пустой вектор с типом float.
