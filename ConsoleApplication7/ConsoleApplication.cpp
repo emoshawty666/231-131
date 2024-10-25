@@ -148,7 +148,7 @@ int main()
 			}
 			else
 			{
-				cerr << "Something gone wrong" << endl;
+				cout << "Something gone wrong" << endl;
 			}
 		}
 		else if (input == "erase")
@@ -170,7 +170,7 @@ int main()
 			}
 			else
 			{
-				cout << "Не удалось открыть файл для записи.\n";
+				cout << "Couldnt open this file :(\n";
 			}
 		}
 	}
