@@ -3,14 +3,14 @@
 using namespace std;
 
 template <typename LeftWeaponType, typename RightWeaponType>
-class DualWield
+class DualWiel
 {
 private:
 	LeftWeaponType leftHand;
 	RightWeaponType rightHand;
 
 public:
-	DualWield(const LeftWeaponType& left, const RightWeaponType& right) : leftHand(left), rightHand(right) {}
+	DualWiel(const LeftWeaponType& left,const  RightWeaponType& right) : leftHand(left), rightHand(right) {}
 
 	LeftWeaponType getLeftHand() const
 	{
@@ -25,7 +25,7 @@ public:
 	{
 		leftHand = left;
 	}
-	void setRightHand(const RightWeaponType& right)
+	void setRightHand(RightWeaponType& right)
 	{
 		rightHand = right;
 	}
