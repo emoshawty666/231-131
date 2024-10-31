@@ -129,12 +129,20 @@
   <ItemGroup>
     <ClCompile Include="Characteristic.cpp" />
     <ClCompile Include="ConsoleApplication4.cpp" />
+    <ClCompile Include="DualWield.cpp" />
+    <ClCompile Include="MagicWeapon.cpp" />
     <ClCompile Include="MyMath.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="SingleUseWeapon.cpp" />
     <ClCompile Include="Weapon1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Characteristic.h" />
+    <ClInclude Include="DualWield.h" />
+    <ClInclude Include="MagicWeapon.h" />
     <ClInclude Include="MyMath.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="SingleUseWeapon.h" />
     <ClInclude Include="Weapon1.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
